@@ -9,7 +9,7 @@ public class MiddleElement {
     public static void main(String[] args) {
         int arr[] = {978, 518, 600, 100, 800};
         int middleElement = middle(arr);
-        System.out.println("Middle Elemnet: " + middleElement);
+        System.out.println("Middle Element: " + middleElement);
     }
 
     /**
