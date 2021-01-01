@@ -15,8 +15,8 @@ public class IntersectionOfTwoArrays {
     }
 
     static int findIntersection(int a1[], int a2[]) {
-        Set set = new HashSet<Integer>();
-        List list = new ArrayList<Integer>();
+        Set<Integer> set = new HashSet<>();
+        List<Integer> list = new ArrayList<>();
         //int count = 0;
         for (int a : a1) {
             set.add(a);

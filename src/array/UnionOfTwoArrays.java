@@ -16,7 +16,7 @@ public class UnionOfTwoArrays {
     }
 
     static int findUnion(int a1[], int a2[]) {
-        Set set = new HashSet<Integer>();
+        Set<Integer> set = new HashSet<>();
         for (int a : a1) {
             set.add(a);
         }
