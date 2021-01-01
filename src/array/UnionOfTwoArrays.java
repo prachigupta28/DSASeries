@@ -5,7 +5,7 @@ import java.util.Set;
 
 /**
  * Program to find Union of two arrays, containing distinct elements from both the arrays. If there are
- * repetitions, then only one occurrence of element should be printed in union. and print its size.
+ * repetitions, then only one occurrence of element should be printed in union and print its size.
  */
 public class UnionOfTwoArrays {
     public static void main(String[] args) {
