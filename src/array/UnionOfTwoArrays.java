@@ -9,8 +9,8 @@ import java.util.Set;
  */
 public class UnionOfTwoArrays {
     public static void main(String[] args) {
-        int a1[] = {1, 1, 2, 2, 3, 3};
-        int a2[] = {8, 9, 7, 6, 5};
+        int a1[] = {7, 1, 5, 2, 3, 6};
+        int a2[] = {3, 8, 6, 20, 7};
         int count = findUnion(a1, a2);
         System.out.println(count);
     }
