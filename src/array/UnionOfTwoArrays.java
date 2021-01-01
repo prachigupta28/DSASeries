@@ -23,6 +23,7 @@ public class UnionOfTwoArrays {
         for (int b : a2) {
             set.add(b);
         }
+        System.out.println(set);
         return set.size();
     }
 }
