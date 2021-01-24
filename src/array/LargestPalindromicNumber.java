@@ -1,7 +1,12 @@
 package array;
 
 public class LargestPalindromicNumber {
-
+    /**
+     * finds the largest number in the array which is palindrome
+     *
+     * @param ar input array
+     * @return largest number in the array which is palindrome
+     */
     public int getLargestPalindrome(int[] ar) {
         int largestPalindrome = -1;
         for (int i = 0; i < ar.length - 1; i++) {
@@ -12,6 +17,12 @@ public class LargestPalindromicNumber {
         return largestPalindrome;
     }
 
+    /**
+     * checks whether the number is palindrome
+     *
+     * @param num
+     * @return boolean
+     */
     public boolean isPalindrome(int num) {
         int reversed = 0;
         int original = num;
