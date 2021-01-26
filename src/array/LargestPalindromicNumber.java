@@ -2,7 +2,7 @@ package array;
 
 public class LargestPalindromicNumber {
     /**
-     * finds the largest number in the array which is palindrome
+     * finds the largest number in the array which is palindrome, if no such number exits then returns -1.
      *
      * @param ar input array
      * @return largest number in the array which is palindrome
