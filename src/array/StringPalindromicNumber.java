@@ -35,7 +35,7 @@ public class StringPalindromicNumber {
     public static void main(String[] args) {
         StringPalindromicNumber obj = new StringPalindromicNumber();
         //String[] ar = {"abc", "adda", "a" };
-        String[] ar =  {"abc", "adda", "a", "abddab", "abbbba"};
+        String[] ar = {"abc", "adda", "a", "abddab", "abbbba"};
         System.out.println("Largest Palindromic String: " + obj.getLargestPalindrome(ar));
     }
 }
